@@ -1,10 +1,11 @@
-# Virtual Environment
+# Environments
 .venv/
 venv/
 ENV/
 env/
+.env
 
-# Python cache and bytecode
+# Python bytecode & cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -12,6 +13,13 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Testing & Linting cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # Operating system files
 .DS_Store
@@ -24,9 +32,20 @@ Thumbs.db
 __MACOSX/
 .Rhistory
 
-# IDE configuration
+# IDE & Editor configuration
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# Environment variables
-.env
+# Machine learning model artifacts (evaluation & prevention of bloating)
+models/
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Processed & temporary datasets (if generated in future phases)
+data/processed/
+data/interim/
