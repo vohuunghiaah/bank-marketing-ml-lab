@@ -63,6 +63,9 @@ bank-marketing-ml-lab/
 │   └── README.md            # Hướng dẫn chi tiết về cấu trúc và sử dụng dữ liệu
 │
 ├── notebooks/               # Thư mục lưu trữ Jupyter Notebooks
+│   ├── 01a_data_understanding.ipynb
+│   ├── 01b_train_val_test_leakage.ipynb
+│   └── 01c_overfitting_underfitting_tree.ipynb
 ├── src/                     # Mã nguồn chính của dự án (data loading, pipelines, models)
 ├── reports/                 # Báo cáo và hình ảnh trực quan hóa
 │   └── figures/
@@ -72,5 +75,9 @@ bank-marketing-ml-lab/
 ---
 
 ## 6. Trạng Thái Hiện Tại
-- **Trạng thái:** `Preparing Dataset` (Chuẩn bị và tổ chức cấu trúc dữ liệu).
-- **Giai đoạn tiếp theo:** Bài 1A — Data Understanding & Exploratory Data Analysis.
+- **Trạng thái:** `In Progress` (Đang triển khai các bài thực hành nền tảng).
+- **Tiến trình:**
+  - [x] **Bài 1A — Data Understanding & Khám Phá Dữ Liệu Ban Đầu** (`notebooks/01a_data_understanding.ipynb`)
+  - [x] **Bài 1B — Train, Validation, Test Split & Phòng Chống Data Leakage** (`notebooks/01b_train_val_test_leakage.ipynb`)
+  - [x] **Bài 1C — Underfitting, Overfitting & Model Complexity** (`notebooks/01c_overfitting_underfitting_tree.ipynb`)
+  - [ ] **Giai đoạn tiếp theo:** Bài 2 — Data Preprocessing & Feature Engineering Pipeline.
